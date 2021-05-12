@@ -1,65 +1,64 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Lights Out</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
 
-<head>
-	<title>Lights Out</title>
-	<meta name="viewport" content="width=device-width, initial-scale=0.5">
-	<link href="style.css" rel="stylesheet">
-	<script src="script.js" defer>
+  <body>
+    <h1>Lights Out</h1>
 
-	</script>
-</head>
+    <div id="grid">
+      <div class="row">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+      <div class="row">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+      <div class="row">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+      <div class="row">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+      <div class="row">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+    </div>
 
-<body>
-	<h1>Lights Out</h1>
+    <div id="sidePanel">
+      <p id="instructions">
+        Click a light to toggle it and its adjacent lights. The goal is to turn off all of the
+        lights. Use this
+        <a href="https://www.logicgamesonline.com/lightsout/tutorial.html" target="_blank"
+          >tutorial</a
+        >
+        to solve the puzzle.
+      </p>
 
-	<div id="grid">
-		<div class="row">
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-		</div>
-		<div class="row">
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-		</div>
-		<div class="row">
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-		</div>
-		<div class="row">
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-		</div>
-		<div class="row">
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-			<div class="square"></div>
-		</div>
-	</div>
-
-	<div id="sidePanel">
-		<p id="instructions">
-			Click a light to toggle it and its adjacent lights. The goal is to turn off all of the lights. Use this
-      <a href="https://www.logicgamesonline.com/lightsout/tutorial.html" target="_blank">tutorial</a>
-      to solve the puzzle.
-		</p>
-
-		<p id="messageParagraph"></p>
-	</div>
-</body>
-
+      <p id="messageParagraph"></p>
+    </div>
+  </body>
 </html>
